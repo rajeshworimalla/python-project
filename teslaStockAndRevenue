@@ -66,3 +66,6 @@ tesla_revenue = tesla_revenue[tesla_revenue['Revenue'] != ""]
 
 print(tesla_revenue.tail())#displays last 5 data
 
+graph=make_graph(tesla_data, tesla_revenue, "Tesla")
+graph
+
